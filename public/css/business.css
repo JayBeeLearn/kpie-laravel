@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.landing {
+    padding: 0rem 4rem;
+}
+
+.hero .row {
+    display: flex;
+    padding: 0 2rem;
+}
+
+.hero .row a {
+    text-decoration: none;
+    background-color: white;
+    padding: 2rem;
+    margin: 0.5rem 0.7rem;
+    border-radius: 15px;
+    transition: 0.5s;
+    width: 45%;
+}
+
+.hero .row a:hover {
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+.hero .row a table,
+td,
+tr,
+div,
+small,
+p,
+span {
+    color: var(--main-blue);
+}
+
+.row table {
+    margin-bottom: 1rem;
+}
+
+.row .history {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .history p {
+    font-size: 1.5rem;
+}
+.row .history small {
+    font-size: 0.8rem;
+}
+
+.hero .row h4 {
+    font-size: 1.3rem;
+}
+.hero .row p {
+    margin: 1rem 0;
+}
+
+.hero .row a .more {
+    border-radius: 20px;
+    background-color: var(--main-gold);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    /* margin-bottom: 0.5rem; */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.hero .row a .more:hover {
+    background-color: #5d3a06;
+    transition: 0.4s;
+}
+
+.profile {
+    width: 90vw;
+    height: 80vh;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.profile .top,
+.down {
+    margin: 1rem;
+}
+
+.top .history {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-box .hr {
+    border-left: 1px solid #5d3a06;
+    height: 100%;
+}
+
+.flex-box .username,
+.password {
+    width: 45%;
+}
